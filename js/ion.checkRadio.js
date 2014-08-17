@@ -69,7 +69,6 @@
                     if ($label.length > 0) {
                         $label.after(hidden);
                         $container = $("#icr-container__" + self.plugin_count);
-                        $input.appendTo($container);
                         $label.appendTo($container);
 
                         text = $label.html();
